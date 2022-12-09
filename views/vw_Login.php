@@ -58,7 +58,7 @@
                                         </button>
                                         <hr>
                                     </form>
-                                    <?php echo $mensaje; ?>
+                                    <b><?php echo $mensaje; ?></b>
                                 </div>
                             </div>
                         </div>
