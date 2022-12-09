@@ -26,6 +26,7 @@ if(isset($_SESSION['usuario'])){
 
             }else{
                 $_SESSION['registro'] = "Usuario incorrecto.";
+                $mensaje = '';
                 $mensaje .= '<div class="row">
                                 <div class="col-xl-12">
                                     <div class="card border-left-danger shadow h-100 py-2">
